@@ -1,4 +1,4 @@
-import Input from "@/Component/Input";
+import Input from "@/Components/Input";
 
 
 const Auth = () => {
