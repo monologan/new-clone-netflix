@@ -1,6 +1,6 @@
 const Input = () => {
     return (
-        <>
+        <div>
             <input className="
             block
             rounded-md
@@ -15,8 +15,9 @@ const Input = () => {
             focus:outline-none
             focus:ring-0
             peer
-            " 
-            placeholder=" "
+            
+            "
+                placeholder=" "
             />
             <label className="
                 absolute
@@ -34,9 +35,9 @@ const Input = () => {
                 peer-focus:scale-75
                 peer-focus:-translate-y-3
             " htmlFor="email">
-                email
+                Email
             </label>
-   
-        </>)
+        </div>
+    )
 }
 export default Input;
